@@ -1,0 +1,18 @@
+# Secrets — never commit the API key
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Local test receipt photos — never commit real receipts to a public repo
+receipt*.jpg
+receipt*.jpeg
+receipt*.png
